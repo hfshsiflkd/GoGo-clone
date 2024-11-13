@@ -1,0 +1,220 @@
+* {
+    margin: 0%;
+    background-color: white;
+
+
+
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 88.91px;
+}
+
+.header {
+    height: 88.91px;
+    width: 1100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 1100px;
+    height: 38.91px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbarleft {
+    width: 745.34px;
+    height: 38.91px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbarleft img {
+    width: 119px;
+    height: 38.91px;
+}
+
+.navbar1 {
+    width: 556.34px;
+    height: 22px;
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.searchlogo {
+    width: 50;
+    height: 24.5;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.searchlogo1 {
+    width: 20px;
+    height: 24.5px;
+}
+
+.ukline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal 14px / 22px Helvetica Neue, sans-serif, Arial;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.hide {
+    display: none;
+
+}
+.hide1 {
+    display: none;
+
+}
+.hide2 {
+    display: none;
+}
+
+.ukline:hover+.hide1 {
+    display: flex;
+    width: 370px;
+    height: 290px;
+    border: 1px solid;
+    position: absolute;
+    top: 40px;
+    transition: all .4s;
+    border: 1px solid black;
+    border-radius: 7px;
+
+}
+
+.ukline:hover+.hide {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 1px solid;
+    position: absolute;
+    top: 40px;
+    transition: all .4s;
+    border: 1px solid black;
+    border-radius: 7px;
+
+}
+
+
+.bi-chevron-down {
+    width: 15px;
+}
+
+.hovertext1 {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.navbarrigth {
+    width: 270.52px;
+    height: 50px;
+    position: relative;
+    top: -12px;
+    display: flex;
+}
+
+.navbarrigthco {
+    display: flex;
+}
+
+.navbarrigth1 {
+    width: 55.05px;
+    height: 50px;
+    margin-right: 30px;
+
+}
+
+.navbarrigth2 {
+    width: 72.05px;
+    height: 50px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarrigth3 {
+    width: 83.43px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.navbarrigth1-1 {
+    width: 55.05px;
+    height: 20px;
+    font-size: 13px;
+}
+
+.navbarrigth1-2 {
+    width: 55.05px;
+    height: 35px;
+    display: flex;
+
+}
+
+.navbarrigth1-3 {
+    width: 15.02px;
+    height: 30px;
+
+}
+
+.navbarrigth1-5 {
+    height: 20px;
+    width: 120px;
+    font-size: 12px;
+}
+
+.exchange {
+    width: 83.43;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.moneygreen {
+    color: #2adb00;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    width: 10.02;
+    height: 21.5;
+    font-size: 20px;
+}
+
+.slash {
+    width: 4px;
+    height: 21.5px;
+    color: grey;
+}
+
+.tugrug {
+    width: 117px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+}

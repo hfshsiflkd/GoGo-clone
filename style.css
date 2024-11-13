@@ -87,7 +87,18 @@
 .hide2 {
     display: none;
 }
+.ukline:hover+.hide2 {
+    display: flex;
+    width: 370px;
+    height: 290px;
+    border: 1px solid;
+    position: absolute;
+    top: 40px;
+    transition: all .4s;
+    border: 1px solid black;
+    border-radius: 7px;
 
+}
 .ukline:hover+.hide1 {
     display: flex;
     width: 370px;

@@ -96,49 +96,48 @@
     display: flex;
     width: 400px;
     height: 250px;
-    border: 1px solid;
     position: absolute;
     top: 40px;
     transition: all .4s;
     background-color: white;
     border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .ukline:hover+.hide2 {
     display: flex;
     width: 220px;
     height: 180px;
-    border: 1px solid;
     position: absolute;
     top: 40px;
     transition: all .4s;
     background-color: white;
     border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .ukline:hover+.hide1 {
     display: flex;
     width: 370px;
     height: 290px;
-    border: 1px solid;
     position: absolute;
     top: 40px;
     transition: all .4s;
     border-radius: 7px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .ukline:hover+.hide {
     display: flex;
     width: 500px;
     height: 300px;
-    border: 1px solid;
     position: absolute;
     top: 40px;
     transition: all .4s;
     border-radius: 7px;
     background-color: white;
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 

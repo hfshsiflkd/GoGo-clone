@@ -1,9 +1,6 @@
 * {
     margin: 0%;
-    background-color: white;
-
-
-
+    box-sizing: border-box;
 }
 
 .head {
@@ -13,6 +10,7 @@
     flex-direction: column;
     width: 100vw;
     height: 88.91px;
+    background-color: #ffffff;
 }
 
 .header {
@@ -89,18 +87,30 @@
 .hide2 {
     display: none;
 }
-
-.ukline:hover+.hide2 {
+.hide3 {
+    display: none;
+}
+.ukline:hover+.hide3 {
     display: flex;
-    width: 370px;
-    height: 290px;
+    width: 400px;
+    height: 250px;
     border: 1px solid;
     position: absolute;
     top: 40px;
     transition: all .4s;
     border: 1px solid black;
     border-radius: 7px;
-
+}
+.ukline:hover+.hide2 {
+    display: flex;
+    width: 220px;
+    height: 180px;
+    border: 1px solid;
+    position: absolute;
+    top: 40px;
+    transition: all .4s;
+    border: 1px solid black;
+    border-radius: 7px;
 }
 
 .ukline:hover+.hide1 {
@@ -232,4 +242,61 @@
     align-items: center;
     font-size: large;
     font-weight: 600;
+}
+.mainer {
+    width: 1100px;
+    height: 768px;
+    border: 1px solid red;
+    margin-top: 15px;
+  
+}
+.mainerhead {
+width: 1100px;
+height: 385px;
+border: 1px solid red;
+display: flex;
+}
+.mainerfoot {
+    width: 1100px;
+    height: 333px;
+    border: 1px solid red;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.mainheadleft {
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+   flex-direction: column;
+   background-image: linear-gradient(to right, #F4F4F4 , white);
+}
+.mainheadlefttext {
+    width: 542.5;
+    height: 265px;
+    border: 1px solid red;
+
+}
+.mainheadrigthimg {
+height: 385px;
+width: 542.5px;
+border: 1px solid red   ;
+padding-left: 15px;
+}
+.paddingleft40 {
+    height: 320px;
+    width: 542.5px;
+    border: 1px solid red   ;
+    }
+.mainheadleftbox {
+    height: 30px;
+    width: 70px;
+    background-image: linear-gradient(to right, red , yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.mainheadrigthimg {
+    overflow: hidden;
 }

@@ -385,3 +385,15 @@
     width: 1484px;
     height: 280.5px;
 }
+.main3-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.main3title {
+    width: 1100px;
+    height: 25px;
+    border: 1px solid red;
+    display: flex;
+    margin-bottom: 20px;
+}

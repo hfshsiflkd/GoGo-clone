@@ -559,3 +559,56 @@
 .story-card .storytitle {
     transition: all 0.5s;
 }
+.contentbodyleft {
+    width: 690px;
+    height: 3239.37px;
+}
+.contentbodyleftbody {
+    width: 690px;
+    height: 3160.37px;
+    margin-top: 40px;
+    border: 1px red solid;
+}
+.bodytext10-1 {
+    border: 1px solid red;
+    width: 690px;
+    height: 150px;
+    display: flex;
+}
+.bodytextrigth {
+    width: 210px;
+    height: 150px;
+}
+.bodytextleft {
+    width: 480px;
+    height: 150px;
+    padding-left: 30px;
+}
+.bodytextlefttext {
+    width: 450px;
+    height: 26px;
+    font-size: 20px;
+}
+.bodytextlefttext2 {
+    width: 450px;
+    height: 46px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #888888;
+    font-size: 14px;
+    
+}
+.bodytextlefttext3 {
+    width: 450px;
+    height: 22px;
+    border: 1px red solid;
+    display: flex;
+
+}
+.bodytextlefttext3-1{
+width: 29.57px;
+height: 22px;
+margin-right: 30px;
+display: flex;
+justify-content: space-between;
+}

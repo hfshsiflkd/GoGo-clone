@@ -449,7 +449,7 @@
 
 .contentbody2 {
     width: 1180px;
-    height: 3309.37px;
+    height: 3209.37px;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 100px;
@@ -790,17 +790,20 @@ input {
     margin-left: 10px;
 
 }
+
 .contentbodyrigth {
     height: 3259.37px;
     width: 340px;
     border-left: 1px #F5F5F5 solid;
 }
+
 .contentbodyrigth2 {
     height: 1190.33px;
     width: 290px;
     margin-left: 50px;
     margin-top: 10px;
 }
+
 .contentrigthfirsttext {
     width: 290px;
     height: 30.33px;
@@ -808,23 +811,27 @@ input {
     display: flex;
 
 }
+
 .contentbodyfirst {
     width: 290px;
     height: 245px;
     margin-bottom: 30px;
 }
+
 .contentbodyfirst img {
     width: 290px;
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
-    
+
 }
-.contentbodyrigth .bodytextlefttext{
+
+.contentbodyrigth .bodytextlefttext {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .gogozuraghide {
     position: absolute;
     opacity: 0;
@@ -832,9 +839,10 @@ input {
     height: 150px;
     top: 0;
     left: 0;
-    border-radius: 8px; 
+    border-radius: 8px;
     background-color: black;
 }
+
 .gogozuraghidetext {
     position: absolute;
     top: 43%;
@@ -843,14 +851,120 @@ input {
     display: flex;
     color: white;
 }
+
 .gogozuraghide1:hover .gogozuraghide {
     opacity: 0.2;
     transition: all 1s;
     transform: none;
 
 }
+
 .gogozuraghide1:hover .gogozuraghidetext {
     opacity: 1;
     transition: all 1s;
     transform: none;
 }
+
+.yariltslaga {
+    width: 1180px;
+    height: 548.31px;
+    border: 1px red solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 60px;
+
+}
+
+.yaria {
+    width: 1100px;
+    height: 27.31px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.yariazurag {
+    width: 1100px;
+    height: 501px;
+    border: 1px red solid;
+    display: flex;
+}
+
+.yariazuragdotorzuun {
+    width: 542.5px;
+    height: 501px;
+    position: relative;
+    overflow: hidden;
+}
+
+.yariazuragdotorbaruun {
+    width: 557.5px;
+    height: 501px;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.yariazuragdotorzuun img {
+    width: 542.5px;
+    height: 501px;
+    object-fit: cover;
+    border-radius: 8px;
+   
+}
+
+.gogoegchtext {
+    width: 542.5px;
+    height: 190px;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.gogoegchtextdeed {
+    background-color:#407CE8 ;
+    width: 105px;
+    height: 25px;
+    font-size: 11px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+}   
+.gogoegchtextdund {
+    color: white;
+    font-size: 22px;
+    margin-top: 14px;
+}
+.gogoegchtextfoot {
+    width: 482.5px;
+    height: 33px;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: white;
+ border-top: 2px solid hsla(0,0%,100%,.15);
+}
+.yariazuragdotorzuun:hover img {
+scale: 1.1;
+transition: all 0.6s;
+}
+.yariazuragbox1 {
+    width: 263.75px;
+    height: 243px;
+    border: 1px solid red;
+    
+}
+.yariazuragbox1 img {
+    width: 263.75px;
+    height: 243px;
+    border: 1px solid red;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+

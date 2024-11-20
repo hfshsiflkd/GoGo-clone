@@ -868,7 +868,6 @@ input {
 .yariltslaga {
     width: 1180px;
     height: 548.31px;
-    border: 1px red solid;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 60px;
@@ -885,7 +884,6 @@ input {
 .yariazurag {
     width: 1100px;
     height: 501px;
-    border: 1px red solid;
     display: flex;
 }
 
@@ -961,14 +959,15 @@ input {
 .yariazuragbox1 {
     width: 263.75px;
     height: 243px;
-    border: 1px solid red;
+    position: relative;
+
 
 }
 
 .yariazuragbox1 img {
     width: 263.75px;
     height: 243px;
-    border: 1px solid red;
+
     object-fit: cover;
     border-radius: 8px;
 
@@ -977,7 +976,7 @@ input {
 .contentbodyfoot {
     width: 340px;
     height: 1436.330px;
-    border: 1px solid red;
+
     background-color: #FCFAF4;
 
 
@@ -1006,8 +1005,8 @@ input {
     height: 112px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px dashed rgba(0,0,0,.06);
-    display: flex ;
+    border-bottom: 1px dashed rgba(0, 0, 0, .06);
+    display: flex;
 
 }
 
@@ -1016,29 +1015,33 @@ input {
     height: 1348px;
     display: flex;
     padding-bottom: 50px;
-    border: 1px solid red;
+
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
 
 }
+
 .contentbodytoo {
     width: 25.578px;
     height: 91px;
     color: #DF0234;
     margin-right: 15px;
-    font-size: 43px ;
+    font-size: 43px;
     font-weight: 600;
 }
+
 .contentbodytootext {
     width: 229.422px;
     height: 91px;
 }
+
 .contentbodytootext2 {
     height: 66px;
     width: 229.422px;
     font-size: 16px;
 }
+
 .contentbodytootext3 {
     height: 20px;
     width: 229.422px;
@@ -1049,14 +1052,238 @@ input {
     align-items: center;
     color: #888;
     justify-content: space-around;
-    
+
 }
+
 .contentbodytootext3 img {
     color: white;
     width: 12px;
     height: 12px;
 }
+
 .contentbodybody:hover {
     transform: scale(1.05);
     transition: 0.2s;
+}
+
+.yariazuragboxtext {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 263px;
+    height: 86px;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+.gogoegchtextdeed2 {
+    background-color: #407CE8;
+    width: 79px;
+    height: 17px;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+.gogoegchtextdund2 {
+    color: white;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 223.75px;
+    height: 55px;
+}
+
+.yariazuragbox1:hover img {
+    scale: 1.1;
+    transition: all 1s;
+}
+
+.yariazuragbox1 {
+    overflow: hidden;
+}
+
+.yariazuragbox1:hover .yariazuragboxtext {
+    height: 120px;
+    transition: all 1s    ;
+
+}
+
+.gogohevmayg {
+    width: 1100px;
+    height: 405.5px;
+    margin-top: 60px;
+
+}
+
+.hevmaygbox {
+    width: 1100px;
+    height: 360px;
+    display: flex;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    gap: 15px
+    ;
+}
+
+.hevmaygbox1 {
+    width: 278.75px;
+    height: 360px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+.hevmaygbox1 img {
+    width: 263.75px;
+    height: 230px;
+    object-fit: cover;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.hevmaygboxzurag {
+    width: 263.75px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.hevmayghide {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blackscreen {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.hevmaygboxzurag:hover .hevmayghide {
+    opacity: 1;
+    transition: all 0.6s;
+
+    
+}
+
+.hevmaygboxzurag:hover .blackscreen {
+    opacity: 0.4;
+    transition: all 0.6s;
+}
+.hevmaygboxdood {
+    width: 263.75px;
+    height: 130px;
+    padding: 10px;
+    border: #F1F1F1 1px solid;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+}
+.textbox12 {
+    width: 241.75px;
+    height: 72px;
+    font-size: 18px;
+}
+.hevmaygboxdood1 {
+    width: 241.75px;
+    height: 21px;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #F2F2F2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hevmaygboxdood1 img {
+    width: 12px;
+    height: 12px;
+}
+.tehno {
+    width: 1100px;
+    height: 347.83px;
+    margin-top: 60px;
+}
+.tehnodeed {
+    width: 1100px;
+    height: 27.83px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.tehnodeed img {
+    width: 23px;
+    height: 25px;
+
+}
+.tehnodood {
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    gap: 15px;
+}
+.tehnodoodbox {
+    width: 278.75px;
+    height: 300px;
+}
+.tehnodoodbox2 {
+    width: 263.750px;
+    height: 170px;
+
+}
+.tehnodoodbox2 img {
+    width: 263.750px;
+    height: 170px;
+    object-fit: cover;
+}
+.blackscreen2 {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.tehnodoodbox2:hover .blackscreen2 {
+    opacity: 0.4;
+    transition: all 0.6s;
+}
+.tehnodoodboxhide {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tehnodoodbox2:hover .tehnodoodboxhide {
+    opacity: 1;
+    transition: all 0.6s;
+
+    
 }

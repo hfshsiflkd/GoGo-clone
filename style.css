@@ -913,7 +913,7 @@ input {
     height: 501px;
     object-fit: cover;
     border-radius: 8px;
-   
+
 }
 
 .gogoegchtext {
@@ -924,8 +924,9 @@ input {
     bottom: 0;
     left: 0;
 }
+
 .gogoegchtextdeed {
-    background-color:#407CE8 ;
+    background-color: #407CE8;
     width: 105px;
     height: 25px;
     font-size: 11px;
@@ -934,31 +935,36 @@ input {
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    
-}   
+
+}
+
 .gogoegchtextdund {
     color: white;
     font-size: 22px;
     margin-top: 14px;
 }
+
 .gogoegchtextfoot {
     width: 482.5px;
     height: 33px;
     margin-top: 10px;
     padding-top: 10px;
     color: white;
- border-top: 2px solid hsla(0,0%,100%,.15);
+    border-top: 2px solid hsla(0, 0%, 100%, .15);
 }
+
 .yariazuragdotorzuun:hover img {
-scale: 1.1;
-transition: all 0.6s;
+    scale: 1.1;
+    transition: all 0.6s;
 }
+
 .yariazuragbox1 {
     width: 263.75px;
     height: 243px;
     border: 1px solid red;
-    
+
 }
+
 .yariazuragbox1 img {
     width: 263.75px;
     height: 243px;
@@ -968,3 +974,89 @@ transition: all 0.6s;
 
 }
 
+.contentbodyfoot {
+    width: 340px;
+    height: 1436.330px;
+    border: 1px solid red;
+    background-color: #FCFAF4;
+
+
+
+}
+
+.contentbodyfootfirst {
+    width: 340px;
+    height: 88.33px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600px;
+
+}
+
+.contentbodyfootfirst img {
+    width: 22px;
+    height: 26px;
+}
+
+.contentbodybody {
+    width: 270px;
+    height: 112px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed rgba(0,0,0,.06);
+    display: flex ;
+
+}
+
+.contentbodymargin50 {
+    width: 340px;
+    height: 1348px;
+    display: flex;
+    padding-bottom: 50px;
+    border: 1px solid red;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contentbodytoo {
+    width: 25.578px;
+    height: 91px;
+    color: #DF0234;
+    margin-right: 15px;
+    font-size: 43px ;
+    font-weight: 600;
+}
+.contentbodytootext {
+    width: 229.422px;
+    height: 91px;
+}
+.contentbodytootext2 {
+    height: 66px;
+    width: 229.422px;
+    font-size: 16px;
+}
+.contentbodytootext3 {
+    height: 20px;
+    width: 229.422px;
+    margin-top: 5px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    justify-content: space-around;
+    
+}
+.contentbodytootext3 img {
+    color: white;
+    width: 12px;
+    height: 12px;
+}
+.contentbodybody:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}

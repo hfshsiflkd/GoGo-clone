@@ -130,7 +130,7 @@
 .ukline:hover+.hide {
   display: flex;
   width: 500px;
-  height: 300px;
+  height: 350px;
   position: absolute;
   top: 40px;
   transition: all 0.4s;
@@ -312,7 +312,14 @@
   background-color: #f0efef;
   border-radius: 20px;
 }
-
+.sharebutton1:hover {
+  width: 100px;
+  height: 34px;
+  background-color: #f0efef;
+  border-radius: 20px;
+  
+  
+}
 .sharebutton {
   margin-left: 13px;
   margin-bottom: 5px;
@@ -348,7 +355,7 @@
 
 .mainheadrigthimg:hover .mainheadrigthimghidetext {
   opacity: 1;
-  transition: 1s;
+  transition: all 1s ;
 }
 
 .mainheadrigthimg:hover .mainheadrigthimg1 {
@@ -493,7 +500,14 @@
   padding-left: 15px;
   margin-top: 13px;
 }
-
+.calendar3:hover .calendar3-1 {
+  background-color: #407CE8;
+  transition: all 0.5s;
+  
+}
+.calendar3:hover .calendar3-2 {
+  color: #407CE8;
+}
 .calendar3-1 {
   width: 103.81px;
   height: 7px;
